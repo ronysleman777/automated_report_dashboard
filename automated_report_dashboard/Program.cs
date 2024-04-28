@@ -1,3 +1,4 @@
+using automated_report_dashboard.forms;
 namespace automated_report_dashboard
 {
     internal static class Program
@@ -11,7 +12,7 @@ namespace automated_report_dashboard
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new log_in());
         }
     }
 }
